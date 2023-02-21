@@ -8,7 +8,7 @@ import { PhoneIcon, AddIcon, WarningIcon, SearchIcon, MoonIcon } from '@chakra-u
 export default function Header(){
   return (
     
-    <Box pt={5}>
+    <Box pt={5} as="header">
       <Flex
         justifyContent={"space-around"}
         alignItems={"center"}

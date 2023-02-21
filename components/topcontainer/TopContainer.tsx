@@ -6,9 +6,11 @@ import React from 'react'
 export default function TopContainer() {
   return (
     <Box
+    as="section"
       backgroundImage={"/images/background.webp"}
       backgroundSize={"contain"}
       py="20"
+      
     >
       <HStack>
         {/* Left Box*/}
